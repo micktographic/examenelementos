@@ -1,0 +1,103 @@
+<ion-header>
+  <ion-toolbar color="success">
+
+    <ion-buttons>
+      <ion-back-button text="back"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+  <ion-card>
+    <img src="https://kinsta.com/es/wp-content/uploads/sites/8/2017/11/agregar-c%C3%B3digo-wordpress-header-footer-1024x512.png" />
+    <ion-card-header>
+      <ion-card-subtitle>Esto es una card</ion-card-subtitle>
+      <ion-card-title>Card</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Utilizamos las cards para colocar información breve
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-card>
+    <ion-item>
+      <ion-icon name="pin" slot="start"></ion-icon>
+      <ion-label>Card con un botón</ion-label>
+      <ion-button fill="outline" slot="end">¡Hola!</ion-button>
+    </ion-item>
+  
+    <ion-card-content>
+      Card con botón que te lleva a otra parte ^^
+    </ion-card-content>
+  </ion-card>
+
+  <ion-item>
+    <ion-label position="stacked">Esto es un input:</ion-label>
+    <ion-input></ion-input>
+</ion-item>
+<ion-item>
+    <ion-label position="stacked">Coloca tu respuesta:</ion-label>
+    <ion-input></ion-input>
+</ion-item>
+
+<ion-list-header>Segmentos</ion-list-header>
+  <ion-segment value="favorite">
+    <ion-segment-button value="call">
+      <ion-label>Favoritos</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="favorite">
+      <ion-label>Guardados</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="map">
+      <ion-label>Eliminados</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+<ion-list>
+  <ion-list-header>
+    Lista con iconos
+  </ion-list-header>
+
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="https://st4.depositphotos.com/1041725/25649/v/600/depositphotos_256498032-stock-illustration-clipart-of-batman-vector-or.jpg">
+    </ion-avatar>
+    <ion-label>
+      <h2>Batman</h2>
+      <h3>Dark knight</h3>
+      <p>hola!</p>
+    </ion-label>
+  </ion-item>
+</ion-list>
+
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="data:image/png;base64,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">
+    </ion-avatar>
+    <ion-label>
+      <h2>Robin</h2>
+      <h3>that one kid</h3>
+      <p>buenas buenas...</p>
+    </ion-label>
+  </ion-item>
+  
+  <ion-list-header>Esto es una checklist</ion-list-header>
+  <ion-item>
+    <ion-label>Hacer tarea</ion-label>
+    <ion-checkbox color="primary" checked slot="start"></ion-checkbox>
+  </ion-item>
+  <ion-item>
+    <ion-checkbox color="primary" checked slot="start"></ion-checkbox>
+    <ion-label>Estudiar</ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-checkbox color="primary" checked slot="start"></ion-checkbox>
+    <ion-label>Hacer bocetos</ion-label>
+  </ion-item>
+  
+</ion-content>
